@@ -1,0 +1,366 @@
+/*---style guide---*/
+@font-face {
+	font-family: 'Anton-Regular';
+	src: url('../fonts/Anton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'UTMAvo';
+	src: url('../fonts/UTMAvo/UTM AvoItalic.eot');
+	src: url('../fonts/UTMAvo/UTM AvoItalic.woff2') format('woff2'),
+		url('UTM AvoItalic.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'UTMAvo';
+	src: url('../fonts/UTMAvo/UTMAvo-Italic.woff') format('woff'),
+		url('UTMAvo-Italic.ttf') format('truetype'),
+		url('UTMAvo-Italic.svg#UTMAvo-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'UTMAvo';
+	src: url('../fonts/UTMAvo/UTM AvoBold_Italic.eot');
+	src: url('../fonts/UTMAvo/UTM AvoBold_Italic.woff2') format('woff2'),
+		url('UTM AvoBold_Italic.eot?#iefix') format('embedded-opentype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'UTMAvo';
+	src: url('../fonts/UTMAvo/UTMAvo-BoldItalic.woff') format('woff'),
+		url('UTMAvo-BoldItalic.ttf') format('truetype'),
+		url('UTMAvo-BoldItalic.svg#UTMAvo-BoldItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'UTMAvo';
+	src: url('../fonts/UTMAvo/UTM AvoBold.eot');
+	src: url('../fonts/UTMAvo/UTM AvoBold.woff2') format('woff2'),
+		url('UTM AvoBold.eot?#iefix') format('embedded-opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UTMAvo';
+	src: url('../fonts/UTMAvo/UTMAvoBold.woff') format('woff'),
+		url('UTMAvoBold.ttf') format('truetype'),
+		url('UTMAvoBold.svg#UTMAvoBold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UTMAvo';
+	src: url('../fonts/UTMAvo/UTM Avo.eot');
+	src: url('../fonts/UTMAvo/UTM Avo.woff2') format('woff2'),
+		url('UTM Avo.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'UTMAvo';
+	src: url('../fonts/UTMAvo/UTMAvo.woff') format('woff'),
+		url('UTMAvo.ttf') format('truetype'), url('UTMAvo.svg#UTMAvo')
+		format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+/*--- end style guide ---*/
+body, html {
+	font-family: 'UTMAvo', 'Arial', 'sans-serif';
+	font-size: 14px;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+/*--- header ---*/
+.banner {
+	background: url(../../images/background1.png) no-repeat;
+	background-size: cover;
+	min-height: 270px;
+}
+
+.logo {
+	float: left;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+
+.logo img {
+	width: 15%;
+}
+
+.top-menu {
+	float: right;
+	position: relative;
+	background: #1874CD;
+	height: 55px;
+	margin-top: -5%;
+}
+
+.top-menu ul li {
+	display: inline-block;
+}
+
+.top-menu ul li a {
+	display: block;
+	color: #fff;
+	padding: 15px;
+	font-size: 17px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.top-menu ul li a:hover {
+	color: #B0E2FF;
+	-webkit-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease
+}
+
+.navbar-nav .active {
+	background: #104E8B;
+}
+
+/*--- end header ---*/
+
+/*--- content ---*/
+.video img {
+	width: 80%;
+}
+
+.video-grid {
+	margin-left: 10%;
+	clear: both;
+}
+
+.title h2 {
+	font-family: 'Anton-Regular';
+	font-size: 300%;
+	margin-bottom: 1%;
+	color: #1874CD;
+	margin: 3% 5% 5% 5%;
+	text-transform: uppercase;
+}
+
+.video-info h3 {
+	font-family: 'Anton-Regular';
+	font-size: 160%;
+	color: #181a1b;
+	margin-bottom: 1%;
+}
+
+.video-info h4 {
+	color: #1874CD;
+	font-family: 'Anton-Regular';
+	font-size: 150%;
+	margin-bottom: 1%;
+}
+
+.video-info table tr td {
+	font-size: 110%;
+}
+
+.video-info table .column2 {
+	padding-left: 5%;
+}
+
+.title1 h3 {
+	font-family: 'Anton-Regular';
+	font-size: 250%;
+	margin-top: 3%;
+	margin-bottom: 2%;
+	color: #1874CD;
+	text-align: center;
+}
+
+.title1 .blog-section .table {
+	margin: 0 auto;
+	display: block;
+}
+
+.title1 .blog-section .table tr th {
+	text-align: center;
+	vertical-align: middle;
+}
+/*--- end content ---*/
+
+/*--- footer ---*/
+.footer {
+	margin-top: 3%;
+	border-top: 3px solid #1874CD;
+	padding: 15px;
+}
+
+.ftr-grid {
+	font-size: 90%;
+	color: #999;
+}
+
+.ftr-grid h3 {
+	font-size: 170%;
+	color: #000;
+	padding: 10px;
+}
+
+.ftr-grid1 p {
+	margin-left: 10%;
+}
+
+.ftr-grid2 ul li {
+	padding-top: 10px;
+}
+
+.ftr-grid2 ul li a {
+	color: #999;
+}
+
+.ftr-grid2 ul li a:hover {
+	color: #337ab7;
+	-webkit-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease
+}
+
+.ftr-grid3 ul li {
+	padding-top: 10px;
+}
+
+.copywrite {
+	position: absolute;
+	width: 100%;
+	background: #1874CD;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 2%;
+}
+
+.copywrite p {
+	color: #fff;
+	font-size: 110%;
+	text-align: center;
+	margin-top: 1%;
+}
+
+.copywrite p a {
+	color: #fff;
+}
+
+.copywrite p a:hover {
+	color: #B0E2FF;
+	-webkit-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease
+}
+/*--- end footer ---*/
+
+/*--- reponsive ---*/
+@media ( max-width : 768px) {
+	span.menu:before {
+		content: url(../../images/nav-icon.png);
+		cursor: pointer;
+		height: 32px;
+	}
+	.banner {
+		background-image: url(../images/background2.jpg) no-repeat;
+		background-size: cover;
+		background-position: center;
+		min-height: 120px;
+	}
+	.video img {
+		width: 40%;
+	}
+	.title h2 {
+		font-size: 200%;
+	}
+	.video-info h3 {
+		font-size: 110%;
+	}
+	.video-info h4 {
+		font-size: 100%;
+	}
+	.video-info table tr td {
+		font-size: 80%;
+	}
+	.video-info table .column2 {
+		padding-left: 5%;
+	}
+	.title1 h3 {
+		font-size: 150%;
+	}
+	.title1 .blog-section .table {
+		width: 95%;
+	}
+	.copywrite p {
+		font-size: 90%;
+	}
+	.top-menu {
+		float: right;
+		height: 55px;
+		margin-top: -5%;
+	}
+	.top-menu ul li {
+		display: inline-block;
+		background: #181a1b;;
+	}
+	.top-menu ul li a {
+		display: block;
+		color: #fff;
+		padding: 15px;
+		font-size: 60%;
+	}
+	.top-menu ul li a:hover {
+		color: #B0E2FF;
+		-webkit-transition: color .5s ease;
+		-o-transition: color .5s ease;
+		transition: color .5s ease
+	}
+	.navbar-nav .active {
+		background: #104E8B;
+	}
+	.footer {
+		margin-top: 2%;
+		border-top: 2px solid #1874CD;
+		padding: 10px;
+	}
+	.ftr-grid {
+		font-size: 80%;
+		color: #999;
+	}
+	.ftr-grid h3 {
+		font-size: 130%;
+		color: #000;
+		padding: 5px;
+	}
+	.ftr-grid1 p {
+		margin-left: 8%;
+	}
+	.ftr-grid2 ul li {
+		padding-top: 5px;
+	}
+	.ftr-grid3 ul li {
+		padding-top: 5px;
+	}
+}
+
+/*--- end reponsive ---*/
